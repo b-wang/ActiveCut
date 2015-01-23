@@ -1,12 +1,3 @@
-// once the EM is done, we need to compute the posterior distribution of the
-// class labels for each patch/voxel originally in the background region. We
-// call it posterior, because we assume a MRF prior on the voxel labels x. Given
-// x, we can compute the marginal P(y|x), where y is the voxel intensity. The
-// marginal means we integrate out the component k when copute P(y|x). This is
-// different with our previous solution just on the prior MRF. The posterior
-// need to be in the range of [0, 1]. We use logistic model to convert the joint
-// likelihood P(x, y) to the posterior. See page 197 of Bishop's book for that.
-
 // the struct for attributes of connected components
 typedef struct ConnectedCompInfor{
      int labelValue;

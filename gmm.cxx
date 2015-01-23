@@ -1,9 +1,6 @@
 #include <common.h>
 #include <gmm.h>
 #include <utility.h>
-// one thing I worry is the initial user input. Within the box, all data are
-// init'd to forground, while some are not. This may result in inaccurate
-// foreground gmm parameter estimaties.
 
 // gmm parameter estimation. (M step).
 int gmm_mstep(const vnl_matrix <double> & data, 
