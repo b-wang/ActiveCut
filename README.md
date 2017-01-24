@@ -54,11 +54,16 @@ $ ./activeCutSeg
 ```
 Input arguments will be printed.
 
-Example to run activeCut:
+Example command to run activeCut:
 ```sh
-$ ../activeCutSeg -d ../allchannels.nii.gz -p ../mask.nii.gz --init ../userInitializationBoundingBox.nii.gz -m 10 --priorfg ../priorfg.nii.gz --priorbg ../prior.nii.gz --eta 4 -g 6 --qscoreth 3.0
+$ ./activeCutSeg -d ../allchannels.nii.gz -p ../mask.nii.gz --init ../userInitializationBoundingBox.nii.gz -m 10 --priorfg ../priorfg.nii.gz --priorbg ../prior.nii.gz --eta 4 -g 6 --qscoreth 3.0
 ```
-
+* allchannels.nii.gz is an input of 4D image
+* mask.nii.gz is an input mask
+* userInitializationBoundingBox.nii.gz is an input of 3D bounding box (cube)
+* use --priorfg to specify an input of foreground priors, which is priorfg.nii.gz in above example
+* use --priorbg to specify an input of background priors, which is prior.nii.gz in above example
+* --eta, -g, --qscoreth are three parameters used in the algorithm
 
 ### Recommended modules:
 
