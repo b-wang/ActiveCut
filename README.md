@@ -1,5 +1,5 @@
 ## ActiveCut
-Active learning-based interactive image segmentation tool
+Active learning-based interactive segmentation tool for biomedical image with pathologies (lesion, tumor, etc.)
 
 #### Authors
 
