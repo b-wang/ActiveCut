@@ -38,9 +38,11 @@ To compile the code:
 
 1) install cmake, boost and ITK libraries on your machine
 
-2) For in-source build, in current directory, run
+2) create a new directory for out-of-source build
 ```sh
-$ ccmake ./
+$ mkdir build
+$ cd build
+$ ccmake ../src
 ```
 3) 'c' to configue and 'g' to generate makefile.
 
