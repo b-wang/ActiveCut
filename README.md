@@ -1,15 +1,10 @@
+![logo](activeCut_logo.png)
 ## ActiveCut
 Active learning-based interactive segmentation tool for biomedical image with pathologies (lesion, tumor, etc.)
 
-#### Authors
 
-Bo Wang, Wei Liu, Marcel Prastawa, Guido Gerig
-
-Scientific Computing and Imaging Institute,
-School of Computing,
-University of Utah
-
-E-mail:bowang@sci.utah.edu
+### Overview of the proposed algorithm
+![flowchart](activeCut_flowchart.png)
 
 ### Citation
 
