@@ -9,14 +9,6 @@ Active learning-based interactive segmentation tool for biomedical image with pa
 ### Citation
 
 If you find the code useful in your research, please consider citing:
-
-    @inproceedings{WangISBI2014,
-        title = {4D active cut: An interactive tool for pathological anatomy modeling},
-        author = {Wang, Bo and Wei, Liu and Prastawa, Marcel and Irimia, Andrei and Vespa, Paul M and Van Horn, John D and Fletcher, P. Thomas and Gerig, Guido},
-        booktitle = {{IEEE} 11th International Symposium on Biomedical Imaging, {ISBI} 2014},
-        pages = {529--532},
-        year = {2014}
-    }
     
     @article{WangCVIU2016,
         title={Modeling 4D pathological changes by leveraging normative models},
