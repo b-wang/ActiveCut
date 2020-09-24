@@ -1,23 +1,11 @@
 ![logo](activeCut_logo.png)
 ## ActiveCut
-Active learning-based interactive segmentation tool for biomedical image with pathologies (lesion, tumor, etc.)
+Active learning-based interactive tool for semi-supervised image segmentation (lesion/tumor segmentation as an example of application)
 
 
 ### Overview of the proposed algorithm
 ![flowchart](activeCut_flowchart.png)
 
-### Citation
-
-If you find the code useful in your research, please consider citing:
-    
-    @article{WangCVIU2016,
-        title={Modeling 4D pathological changes by leveraging normative models},
-        author={Wang, Bo and Prastawa, Marcel and Irimia, Andrei and Saha, Avishek and Liu, Wei and Goh, SY Matthew and Vespa, Paul M and Van Horn, John D and Gerig, Guido},
-        journal={Computer Vision and Image Understanding},
-        volume={151},
-        pages={3--13},
-        year={2016}
-    }
 
 ### Install & usage:
 
@@ -61,3 +49,26 @@ input. The output will be 4D images, too.
 
 Before doing any testing, please install a software (Slicer or ITK-SNAP) to visually 
 check the candidate objects for user interaction. 
+
+
+### Citation
+
+If you find the code useful in your research, please consider citing:
+    
+    @article{wang2016cviu,
+        title={Modeling 4D pathological changes by leveraging normative models},
+        author={Wang, Bo and Prastawa, Marcel and Irimia, Andrei and Saha, Avishek and Liu, Wei and Goh, SY Matthew and Vespa, Paul M and Van Horn, John D and Gerig, Guido},
+        journal={Computer Vision and Image Understanding},
+        volume={151},
+        pages={3--13},
+        year={2016}
+    }
+    
+    @inproceedings{wang2014activecut,
+      title={4D active cut: An interactive tool for pathological anatomy modeling},
+      author={Wang, Bo and Liu, K Wei and Prastawa, K Marcel and Irima, Andrei and Vespa, Paul M and Van Horn, John D and Fletcher, P Thomas and Gerig, Guido},
+      booktitle={2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI)},
+      pages={529--532},
+      year={2014},
+      organization={IEEE}
+    }
